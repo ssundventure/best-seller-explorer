@@ -1,0 +1,30 @@
+.nav {
+    border-bottom: #2d2d2d 2px solid;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    top: 0px;
+    border-radius: 2px;
+    padding: 20px 0px;
+    left: 50%;
+    z-index: 10;
+    transform: translateX(-50%);
+    background-color:whitesmoke
+  }
+  
+  .nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .nav ul li {
+    list-style: none;
+    transform: none;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .nav ul li:hover {
+    transform: scale(1.05);
+  }
+  
